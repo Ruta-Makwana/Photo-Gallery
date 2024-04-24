@@ -17,11 +17,12 @@ header{
 .image_container{
     max-width: 100%;
     max-height: 100%;
-    background-image: url(images/background.jpg);
+    background-image: url(https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    overflow:hidden;
+    overflow: hidden;
+    background-attachment: fixed;
 }
 
 .image_section{
@@ -30,15 +31,12 @@ header{
 
 .images{
     width: 30.5vw;
+    max-width: 100%;
     overflow: hidden;
     float: left;
     margin: 10px;
     box-shadow: 0 0 10px rgba(1, 1, 1, 0.5);
     border-radius: 5px;
-}
-
-.images:hover{
-    width: 31.1vw;
 }
 
 .img{
@@ -50,6 +48,11 @@ header{
     height: 100%;
     object-fit: cover;
 }
+
+.img img:hover{
+    width: 40vw;
+}
+
 .caption{
     text-align: center;
     background-color: rgba(1, 1, 1, 0.7);
