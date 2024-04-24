@@ -17,7 +17,7 @@ header{
 .image_container{
     max-width: 100%;
     max-height: 100%;
-    background-image: url(https://images.pexels.com/photos/6913376/pexels-photo-6913376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
